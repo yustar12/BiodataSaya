@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorStarblue"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/yustar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="A11.2016.09499"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Yustar Krishna Adiprana"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="30dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Hobi Berenang"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="40dp"
+                android:text="Tukang melamun, mengubah kopi menjadi inspirasi."
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25dp" />
+
+            <Button
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:onClick="openAlamat"
+                android:text="Alamat"
+                android:textAlignment="center"
+                android:textColor="@color/colorStarblue"
+                android:textSize="30dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:onClick="openTelpon"
+                android:text="telepon"
+                android:textAlignment="center"
+                android:textColor="@color/colorStarblue"
+                android:textSize="30dp" />
+
+            <Button
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="15dp"
+                android:onClick="openEmail"
+                android:text="email"
+                android:textAlignment="center"
+                android:textColor="@color/colorStarblue"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
